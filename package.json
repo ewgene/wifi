@@ -9,9 +9,11 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "image-to-base64": "^2.2.0",
     "konva": "^8.3.1",
     "vue": "^2.6.11",
-    "vue-konva": "^2.1.7"
+    "vue-konva": "^2.1.7",
+    "vue-upload-component": "^2.8.22"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -34,7 +36,9 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-console": "off"
+    }
   },
   "browserslist": [
     "> 1%",
